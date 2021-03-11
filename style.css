@@ -10,11 +10,11 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #efeee7;
+  background: #f3f3ef;
 }
 
 header {
-  background: #333;
+  background: rgb(71, 218, 223);
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
   margin: 0;
   margin-bottom: 20px;
   font-size: 28px;
-  color: #eee;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -33,6 +33,11 @@ h2 {
 a {
   color: #d21034;
 }
+
+aside {left: 150px;
+
+}
+
 
 /* Selecting elements by class */
 .container {
@@ -62,6 +67,7 @@ a {
 }
 
 #contact-info {
+  position: left;
   width: 30%;
 }
 

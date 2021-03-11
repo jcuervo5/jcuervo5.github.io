@@ -3,10 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>Javier Cuervo - Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Max Temperture</a>
+              <a class="dropdown-item" href="#">Humidity</a>
+              <a class="dropdown-item" href="#">Cloudiness</a>
+              <a class="dropdown-item" href="#">Windspeed</a>
+            </div>
+          </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Data <span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
 
   <header>
     <h1>Javier J. Cuervo</h1>
@@ -15,7 +44,7 @@
   <main class="container">
     <section id="main-bio">
       <section id="figure">
-        <h2 id="bio-name">Javier Cuervo</h2>
+        <h2 id="bio-name"></h2>
         <img id="bio-image" src="https://media-exp1.licdn.com/dms/image/C5603AQG9GeZ-g6DjRQ/profile-displayphoto-shrink_200_200/0/1567705764732?e=1620864000&v=beta&t=dMA2foRHZzk8EYkrY6T82QftIKkfqdKJIm8Z2ymYHpo" alt="Javier Cuervo">
       </section>
       <p>Aspiring Data Scientist, in the midst of learning a wide array of data analytic and 
@@ -31,9 +60,10 @@
       <h2>Contact Info</h2>
       <ul>
         <li><strong>Email:</strong> <a href="javier.cuervo@mail.com">javier.cuervo@mail.com</a></li>
+        <li><strong>Portfolio:</strong><a href="https://jcuervo5.github.io/whatever_you_want">Portfolio</a></li><br>
         <li><strong>Github:</strong> <a href="https://github.com/jcuervo5">Git Hub Profile</a></li>
         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/javier-cuervo-mba-018036151">Linkedin Profile</a></li>
-        <li><strong>Portfolio</strong> <a href="https://jcuervo5.github.io/whatever_you_want">We're Getting There!</a></li>
+        
       </ul>
     </aside>
   </main>
